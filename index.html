@@ -7,6 +7,8 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
   <style type="text/css">
@@ -83,8 +85,49 @@
     font-size: 40px;
     line-height: 180%;
   }
+  .footer-main{
+    background-color: #EEE;
+    padding: 30px 0px;
+  }
+  ul{
+    list-style-type: none;
+  }
 
 
+.line-footer{
+  padding: 30px 50px;
+}
+.line-footer li{
+  display: inline-block;
+}
+.line-footer li>a {
+  padding: 10px 20px;
+  color: #fff;
+}
+.text-right{
+  text-align: right;
+}
+.false{
+  margin-top: -30px;
+}
+
+@media(max-width: 748px){
+  .line-footer{
+    text-align: center;
+  }
+  .line-footer li{
+  display:block;
+}
+.text-right{
+  text-align: center;
+}
+.false{
+  margin-top: 0px;
+}
+
+  
+  
+}
 
 </style>
 </head>
@@ -163,7 +206,7 @@
             <h1>Hyderabad</h1>
           </div>
         </div>
-        
+
         <div class="col event" style="background-image: url(https://is4.cfcdn.com/is/p/t20/1280x800/public/images/gallery/city_masthead/5/Hyderabad_Masthead_1.jpg); ">
           <div class="overlay">
             <h1>Hyderabad</h1>
@@ -182,13 +225,13 @@
             <h1>Hyderabad</h1>
           </div>
         </div>
-        
+
         <div class="col event" style="background-image: url(https://is4.cfcdn.com/is/p/t20/1280x800/public/images/gallery/city_masthead/5/Hyderabad_Masthead_1.jpg); ">
           <div class="overlay">
             <h1>Hyderabad</h1>
           </div>
         </div>
-        
+
       </div>
     </div>
   </section>
@@ -217,19 +260,21 @@
     </div>
   </section>
 
-  <footer class="bg-dark" style="padding-top: 20px;">
-    <div class="container">
-      <hr>
-      <div class="row">
-        <div class="col">
-          <p class="text-light" style="font-size: 12px; margin-bottom: 5px;">© 2005-2017 Think Machine Learning Foundation and individual contributors.</p>
+  <section style="background-color:#000;">
+      <div class="line-footer">
+        <li><a href="#">Research</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <div class="text-right false" style="">
+          <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </section>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
