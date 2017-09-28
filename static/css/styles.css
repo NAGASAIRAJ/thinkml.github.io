@@ -1,36 +1,114 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lato|Montserrat:200,300,400');
-
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.display-1,.display-2,.display-3,.display-4{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 200;
-}
-body,p,span,a{
-	font-family: 'Lato', sans-serif;
-}
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.75);
-}
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255,255,255,1);
-}
-.bg-light{
-	background-color: #ECEFF1!important;
-}
-.icon-2x{
-	font-size: 2em;
-}
-.icon-3x{
-	font-size: 3em;
-}
-.icon-4x{
-	font-size: 4em;
-}
-.c-form-elem{
+.hero-unit{
+	display: table;
+	position: relative;
 	width: 100%;
-	border-radius: 3px;
-	border: 1px solid #ddd;
-	padding: 3px 15px;
+	min-height: 500px;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://cdn.discordapp.com/attachments/357198143533613057/358668668311437333/hero.jpg") center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	overflow: hidden;
 }
-.media{
-	padding: 20px 0px;
+.text-vertical-center {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+}
+.hero-unit-primary-text{
+	text-transform: uppercase;
+	font-size: 85px;
+	font-weight: 700;
+	line-height: 1;
+	color: #FFF;
+}
+.hero-unit-secondary-text{
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1;
+}
+.nav-custom{
+	padding: 10px 50px;
+}
+.navbar-brand{
+	font-size: 28px;
+}
+.section-extras{
+	padding: 30px 0px;
+}
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.event {
+	margin: 15px 15px 15px 15px;
+	padding: 0;
+	background: url(../img/global/krakow.png) no-repeat;
+	background-size: cover;
+	width: calc(33% - 30px);
+	height: 210px;
+	text-align: center;
+	color: #fff;
+	font-style: italic;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	padding: 85px 0 0 0;
+}
+.overlay:hover {
+	background: rgba(0,0,0,0.3);
+}
+.heads{
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	font-weight: 100;
+	font-size: 40px;
+	line-height: 180%;
+}
+.footer-main{
+	background-color: #EEE;
+	padding: 30px 0px;
+}
+ul{
+	list-style-type: none;
+}
+
+
+.line-footer{
+	padding: 30px 50px;
+}
+.line-footer li{
+	display: inline-block;
+}
+.line-footer li>a {
+	padding: 10px 20px;
+	color: #fff;
+}
+.right{
+	text-align: right;
+}
+.false{
+	margin-top: -30px;
+}
+
+@media(max-width: 748px){
+	.line-footer{
+		text-align: center;
+	}
+	.line-footer li{
+		display:block;
+	}
+	.right{
+		text-align: center;
+	}
+	.false{
+		margin-top: 0px;
+	}
+
 }
