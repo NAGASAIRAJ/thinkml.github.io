@@ -79,7 +79,6 @@ ul{
 	list-style-type: none;
 }
 
-
 .line-footer{
 	padding: 30px 50px;
 }
@@ -98,6 +97,7 @@ ul{
 }
 
 @media(max-width: 748px){
+	
 	.line-footer{
 		text-align: center;
 	}
