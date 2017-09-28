@@ -4,7 +4,7 @@
 	width: 100%;
 	min-height: 500px;
 	height: 100vh;
-	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("https://cdn.discordapp.com/attachments/357198143533613057/358668668311437333/hero.jpg") center center;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://cdn.discordapp.com/attachments/357198143533613057/358668668311437333/hero.jpg") center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -18,16 +18,30 @@
 	color: #fff;
 }
 .hero-unit-primary-text{
-	text-transform: uppercase;
-	font-size: 85px;
-	font-weight: 700;
-	line-height: 1;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 55px;
+	font-style: italic;
+	margin-bottom: 20px;
 	color: #FFF;
 }
 .hero-unit-secondary-text{
-	font-size: 30px;
-	font-weight: 500;
-	line-height: 1;
+	font-size: 20px;
+	color: #e7e7e7;
+	line-height: 30px;
+}
+
+@media(max-width: 746px){
+	.hero-unit-primary-text{
+		font-size: 28px;
+		font-weight: 400;
+		line-height: 35px;
+	}
+	.hero-unit-secondary-text{
+		font-size: 16px;
+		line-height: 25px;
+
+	}
 }
 .nav-custom{
 	padding: 10px 50px;
@@ -71,6 +85,16 @@
 	font-size: 40px;
 	line-height: 180%;
 }
+
+.box-heads{
+	font-size: 18px;
+	font-weight: 700;
+	margin: 10px 0px;
+}
+.box-des{
+	font-size: 14px;
+	font-weight: 400;
+}
 .footer-main{
 	background-color: #EEE;
 	padding: 30px 0px;
@@ -112,3 +136,5 @@ ul{
 	}
 
 }
+
+
